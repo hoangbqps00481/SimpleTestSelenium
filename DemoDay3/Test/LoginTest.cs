@@ -20,6 +20,7 @@ namespace DemoDay3.Test
 
         }
 
+        [TestCategory("smoketest1")]
         [TestMethod("C01: Verify login with valid usename and password")]
 
         public void LoginWithValidUser()
@@ -41,7 +42,7 @@ namespace DemoDay3.Test
             //dashboardPage.IsTitleDashboardDisplay().Should().BeTrue();
         }
 
-
+        [TestCategory("smoketest1")]
         [TestMethod("C02: Verify login with invalid usename and password")]
         public void LoginWithInValidUser()
         {
